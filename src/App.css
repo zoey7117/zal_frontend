@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+.box {
+  height: 60px;
+background-color: yellow;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.pic {
+  width: 50%;
+}
+/* .carousel-wrapper {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0 20px
+} */
