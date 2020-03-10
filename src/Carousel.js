@@ -5,7 +5,6 @@ export default () => (
   <div>
     <Carousel
       className="carousel-wrapper"
-      dynamicHeight
       showThumbs={false}
       autoPlay
       infiniteLoop
