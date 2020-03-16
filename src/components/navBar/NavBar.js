@@ -21,14 +21,14 @@ class NavBar extends React.Component {
 
   return (<div>
     <nav id="navbar">
-  <Link to="/" className='navbar-logo'>Adopt a Pet!</Link>
+  <Link to="/" className='navbar-logo'><img src="./assets/zGlogo200px.jpg" alt=''/></Link>
   <div className='spacer'/>
   <div className='navbar-words'>
     <ul>
-      <li><Link to="/" >Home</Link></li>
-      <li><Link to="/login" >Log In</Link></li>
-      <li><Link to="/signup" >Sign Up</Link></li>
-      <li><Link to="/logout"  >Log Out</Link></li>
+      <li><Link to="/about" >about</Link></li>
+      <li><Link to="/original work" >original work</Link></li>
+      <li><Link to="/prints" >prints</Link></li>
+      <li><Link to="/clothing"  >clothing</Link></li>
     </ul>
 
     </div>
