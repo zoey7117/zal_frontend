@@ -1,38 +1,39 @@
 import React from "react";
 import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-
-class Home extends React.Component {
+import { Link } from 'react-router-dom'
 
 
-   render() {
-        return (
-          <div>
-          <div className='box'/>
+export default () => (
 
- <div className='carousel-wrapper'>
+  <div>
+<div className='box'/>
 
 
 
+<div className='carousel-wrapper'>
 
-          <Carousel centerMode
-                centerSlidePercentage={50}
-                showThumbs={false}
-                infiniteLoop={true}>
+   <Carousel
+     showThumbs={false}
+     infiniteLoop
+     autoPlay
+     interval={4000}
+     transitionTime={1000}
+     showIndicators={false}
+
+
+     >
+
+
             <div>
-
-                  <img src="../img-01.jpg" />
+                    <Link to='/'><img src="../img-01.jpg" alt=''style={{height:'300px', width: 'inherit' }}/></Link>
               </div>
-              <div>
-                  <img src="../img-02.jpg" />
+                <div>
+                  <img src="../img-02.jpg" alt=''/>
               </div>
-              <div>
-                  <img src="../img-03.jpg" />
+                <div>
+                  <img src="../img-03.jpg"alt='' />
               </div>
           </Carousel>
-          </div>
-          </div>
+        </div>
+        </div>
   );
-}
-}
-export default Home

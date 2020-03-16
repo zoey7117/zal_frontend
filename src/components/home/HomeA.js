@@ -13,9 +13,20 @@ class Home extends React.Component {
 
 
 
-          <Carousel>
+   <Carousel
+     showThumbs={false}
+     infiniteLoop
+     autoPlay
+     interval={4000}
+     transitionTime={1000}
+     showIndicators={false}
+     centerMode
+     centerSlidePercentage={50}
+
+     >
+
               <div>
-                  <img src="assets/mary-G-1920-1.jpg" alt='' style={{ width: '50%', height: '300px'}}/>
+                <img src="../img-01.jpg" alt=''style={{width: "70%"}}/>
               </div>
               <div>
                   <img src="assets/mary-G-1920-1.jpg" alt=''style={{ width: '50%', height: '300px'}}/>
