@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Prints = () => (
-  <div>
+  <div className='secondary-wrapper'>
   prints
   </div>
 

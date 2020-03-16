@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Originals = () => (
-  <div>
+  <div className='secondary-wrapper'>
   originals
   </div>
 

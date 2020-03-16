@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import zGlogo150px from '../../assets/zGlogo150px.jpg'
+
 import './NavBar.css'
 // import ToggleButton from '../mobileNavbar/ToggleButton'
 
@@ -18,9 +20,11 @@ class NavBar extends React.Component {
 
 
 
+
+
   return (<div>
     <nav id="navbar">
-  <Link to="/" className='navbar-logo'><img src="./assets/zGlogo200px.jpg" alt=''/></Link>
+  <Link to="/" className='navbar-logo'><img src={zGlogo150px} alt='logo'/></Link>
   <div className='spacer'/>
   <div className='navbar-words'>
     <ul>

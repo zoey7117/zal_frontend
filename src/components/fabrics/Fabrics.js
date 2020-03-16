@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Fabrics.css'
 
 
 const Fabrics = () => (
-  <div>
+    <div className='secondary-wrapper'>
+
   fabrics
-  <Link to='/'><img src="../confluencezGb.jpg" alt=''/></Link>
 
 
 

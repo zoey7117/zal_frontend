@@ -12,6 +12,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const App = () => (
   <div className="app">
+    <div className='container'/>
+
     <NavBar />
       <Route exact path='/about' component={About}/>
       <Route exact path='/original work' component={Originals}/>
@@ -24,7 +26,9 @@ const App = () => (
         <Route exact path='/original work' render={null} />
         <Route component={Home} />
       </Switch>
+      
   </div>
+
 );
 
 export default App;

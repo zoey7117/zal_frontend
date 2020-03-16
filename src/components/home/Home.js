@@ -10,7 +10,6 @@ import './Home.css'
 const Home = () => (
 
   <div>
-    <div className='box'/>
     <div className='carousel-wrapper'>
 
      <Carousel

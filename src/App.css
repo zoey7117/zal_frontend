@@ -1,17 +1,17 @@
 .App {
   text-align: center;
 }
-.box {
+.container {
   height: 100px;
   width: 100%;
   margin-bottom: 20px;
   display: flex;
-  /* position: absolute; */
   z-index: 1;
 }
-/* .carousel-wrapper {
-  display: flex;
-
+.secondary-wrapper {
+  height: 100%;
   width: 80%;
-  margin-top: 10%;
-} */
+  display: flex;
+  justify-content: center;
+
+}
