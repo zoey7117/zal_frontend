@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const About = () => (
   <div>
-  about me
+  about
   <Link to='/'><img src="../confluencezGb.jpg" alt=''/></Link>
 
 

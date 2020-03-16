@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { Link } from 'react-router-dom'
 import './NavBar.css'
 // import ToggleButton from '../mobileNavbar/ToggleButton'
@@ -25,10 +24,11 @@ class NavBar extends React.Component {
   <div className='spacer'/>
   <div className='navbar-words'>
     <ul>
-      <li><Link to="/about" >about</Link></li>
-      <li><Link to="/original work" >original work</Link></li>
-      <li><Link to="/prints" >prints</Link></li>
-      <li><Link to="/clothing"  >clothing</Link></li>
+      <li><Link to="/">home</Link></li>
+      <li><Link to="/about">about</Link></li>
+      <li><Link to="/original work">original work</Link></li>
+      <li><Link to="/prints">prints</Link></li>
+      <li><Link to="/clothing">clothing</Link></li>
     </ul>
 
     </div>

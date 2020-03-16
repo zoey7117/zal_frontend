@@ -25,13 +25,13 @@ const Home = () => (
        >
 
         <div>
-          <Link to='/'><img src={confluencezGb} alt=''/></Link>
+          <Link to='/prints'><img src={confluencezGb} alt=''/></Link>
         </div>
         <div>
-          <Link to='/'><img src={turtle1920} alt=''/></Link>
+          <Link to='/original work'><img src={turtle1920} alt=''/></Link>
         </div>
         <div>
-          <Link to='/prints'><img src={mary1920}alt='' /></Link>
+          <Link to='/clothing'><img src={mary1920}alt='' /></Link>
         </div>
       </Carousel>
     </div>
