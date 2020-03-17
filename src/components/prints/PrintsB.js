@@ -3,15 +3,28 @@ import './Prints.css'
 import Brucesq from '../../assets/Brucesq.jpg'
 import EyeZsq from '../../assets/EyeZsq.jpg'
 import haveWantsq from '../../assets/haveWantsq.jpg'
+import { withRouter } from "react-router";
 import { Link } from 'react-router-dom'
 
 
 
 
 
+// import { Card } from 'semantic-ui-react'
 
 
-const Prints = () => (
+class Prints extends React.Component  {
+
+
+
+
+  goToCarddetails = (cardId) => {
+    localStorage.setItem("selectedCard", cardId);
+    this.props.history.push('/card-details');
+// you can manage here to pass the clicked card id to the card details page if needed
+}
+render() {
+return (
 
 
   <div>
@@ -20,7 +33,7 @@ const Prints = () => (
 
       <div className='prints-grid'>
         <div className='box box1'>
-          <Link to='/print card'><img src={Brucesq} alt='fake' className='resp-image'/></Link>
+          <Link to=''><img src={Brucesq} alt='fake' cardId='cardId1'className='resp-image' onClick = {()=>this.goToCarddetails('cardId1')}/></Link>
         </div>
         <div className='box box2'>
           <img src={EyeZsq} alt='fake' className='resp-image'/>
@@ -53,5 +66,6 @@ const Prints = () => (
     </div>
   </div>
 )
-
-export default Prints
+}
+}
+export default withRouter(Prints)

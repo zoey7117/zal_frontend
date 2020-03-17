@@ -26,7 +26,7 @@ const Home = () => (
        >
 
         <div>
-          <Link to='/prints'><img src={confluencezGb} alt=''/></Link>
+          <Link to='/prints'><img src={confluencezGb} className='prints'alt=''/></Link>
         </div>
         <div>
           <Link to='/original work'><img src={turtle1920} alt=''/></Link>
