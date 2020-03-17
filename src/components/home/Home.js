@@ -21,6 +21,8 @@ const Home = () => (
        showIndicators={false}
        centerMode
        centerSlidePercentage={50}
+       showStatus={false}
+       showArrows={false}
        >
 
         <div>
