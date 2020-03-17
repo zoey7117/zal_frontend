@@ -35,7 +35,7 @@ const App = () => (
         <Route exact path='/original work' render={null} />
         <Route exact path='/print card' render={null} />
 
-        <Route component={HomeChoice} />
+        <Route component={Home} />
       </Switch>
 
   </div>

@@ -11,12 +11,12 @@ state = {
     isMobile: false
   }
 componentDidMount() {
-    this.props.media({ minWidth: 768 }, () => {
+    this.props.media({ minWidth: 846 }, () => {
       this.setState({
         isMobile: false
       });
     });
-this.props.media({ maxWidth: 768 }, () => {
+this.props.media({ maxWidth: 845 }, () => {
       this.setState({
         isMobile: true
       });
