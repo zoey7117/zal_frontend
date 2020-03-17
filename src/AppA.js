@@ -5,9 +5,6 @@ import Fabrics from './components/fabrics/Fabrics'
 import Originals from './components/originals/Originals'
 import Prints from './components/prints/Prints'
 import PrintCard from './components/prints/PrintCard'
-import HomeChoice from './components/home/HomeChoice'
-
-
 
 import Home from './components/home/Home'
 import About from './components/about/About'
@@ -16,8 +13,6 @@ import NavBar from './components/navBar/NavBar'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const App = () => (
-
-
   <div className="app">
     <div className='container'/>
 
@@ -35,7 +30,7 @@ const App = () => (
         <Route exact path='/original work' render={null} />
         <Route exact path='/print card' render={null} />
 
-        <Route component={HomeChoice} />
+        <Route component={Home} />
       </Switch>
 
   </div>

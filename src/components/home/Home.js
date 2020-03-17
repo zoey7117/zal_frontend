@@ -11,7 +11,7 @@ const Home = () => (
 
   <div>
     <div className='carousel-wrapper'>
-        <div className='desktop carousel'>
+        <div className='desktop-carousel'>
      <Carousel
        showThumbs={false}
        infiniteLoop
