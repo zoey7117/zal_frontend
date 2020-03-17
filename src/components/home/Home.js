@@ -11,7 +11,7 @@ const Home = () => (
 
   <div>
     <div className='carousel-wrapper'>
-
+        <div className='desktop carousel'>
      <Carousel
        showThumbs={false}
        infiniteLoop
@@ -37,5 +37,6 @@ const Home = () => (
       </Carousel>
     </div>
   </div>
+</div>
   );
   export default Home
