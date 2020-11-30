@@ -1,10 +1,29 @@
-.carousel-wrapper {
-
-  margin-left: 6.5%;
-  margin-right: 6%;
-  margin-top: 7%;
-
-}
+/* .carousel-wrapper {
+	margin-left: 6.5%;
+	margin-right: 6%;
+	margin-top: 7%;
+} */
 a {
-  display: block;
+	display: block;
+}
+
+.home {
+	width: 100vw;
+	height: 100vh;
+}
+.home {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 0px 0px;
+	grid-template-areas: "left main right";
+}
+.left {
+	grid-area: left;
+}
+.main {
+	grid-area: main;
+}
+.right {
+	grid-area: right;
 }

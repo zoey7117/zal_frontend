@@ -9,12 +9,7 @@ import './Home.css'
 
 const Home = () => (
 
-  <div className='home outer-grid'>
-
-    <div className='grid-1 header left'>
-      </div>
-
-    <div className='carousel-wrapper main'>
+    <div className='carousel-wrapper'>
 
      <Carousel
        showThumbs={false}
@@ -23,8 +18,8 @@ const Home = () => (
        interval={4000}
        transitionTime={1000}
        showIndicators={false}
-      //  centerMode
-      //  centerSlidePercentage={50}
+       centerMode
+       centerSlidePercentage={50}
        showStatus={false}
        showArrows={false}
        >
@@ -38,12 +33,7 @@ const Home = () => (
         <div>
           <Link to='/clothing'><img src={mary1920}alt='' /></Link>
         </div>
-    </Carousel>
-
-
-    </div>
-    <div className='grid-3 footer right'>
-    </div>
+      </Carousel>
     </div>
   );
   export default Home
