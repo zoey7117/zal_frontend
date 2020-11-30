@@ -9,7 +9,6 @@ import './Home.css'
 
 const Home = () => (
 
-  <div>
     <div className='carousel-wrapper'>
 
      <Carousel
@@ -36,6 +35,5 @@ const Home = () => (
         </div>
       </Carousel>
     </div>
-  </div>
   );
   export default Home
